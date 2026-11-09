@@ -32,7 +32,7 @@
 
 ## 지원 환경
 
-macOS (Apple Silicon). Windows 는 준비 중입니다.
+macOS (Apple Silicon), Windows (x64, ARM 은 에뮬레이션으로 실행).
 
 ## 포함된 소프트웨어
 
@@ -74,7 +74,7 @@ Beyond these, features you run or configure yourself, such as importing public h
 
 ## Platforms
 
-macOS (Apple Silicon). Windows is planned.
+macOS (Apple Silicon) and Windows (x64; ARM runs it under emulation).
 
 ## Included software
 
