@@ -10,7 +10,8 @@
 
 1. 이슈트래커 데스크톱을 설치합니다.
 2. 앱의 서버 선택 화면에서 **단독버전 설치**를 누르면 단독버전 탭이 열립니다.
-3. 이름과 조직 이름을 입력하고 **최신 버전 받기**를 누릅니다. 설치가 끝나면 서버 목록에 **내 컴퓨터** 항목이 생깁니다.
+3. **최신 버전 받기**를 누릅니다.
+4. 이름과 조직 이름을 입력하고 **시작**을 누르면 서버 목록에 **내 컴퓨터** 항목이 생깁니다.
 
 패키지는 앱이 이 저장소의 최신 릴리스에서 받아 서명을 확인한 뒤 설치합니다. 이 저장소의 파일을 직접 내려받을 필요는 없습니다.
 
@@ -18,7 +19,7 @@
 
 - 데이터는 앱 데이터 폴더 아래 `standalone/` 에 저장됩니다. macOS 는 `~/Library/Application Support/kr.typostudio.issue-tracker/standalone/` 입니다.
 - 서버는 `127.0.0.1` 에서만 열리며 다른 컴퓨터에서 접속할 수 없습니다.
-- 추가기능을 지울 때 데이터를 남길지 고를 수 있습니다. 백업은 이 폴더를 복사하면 됩니다(앱을 끈 상태에서).
+- 단독버전 페이지에서 패키지만 지우거나(데이터는 남고, 다시 설치하면 이어서 씁니다) 데이터만 지워 초기화할 수 있습니다. 백업은 이 폴더를 복사하면 됩니다(앱을 끈 상태에서).
 
 ### 인터넷을 쓰는 경우
 
@@ -51,7 +52,8 @@ An add-on for Issue Tracker Desktop, for using it on your own with no server, si
 
 1. Install Issue Tracker Desktop.
 2. On the server picker, click **Install Standalone**. The Standalone tab opens.
-3. Enter your name and organization name, then click **Get the latest version**. A **My Computer** entry appears in the server list when it finishes.
+3. Click **Get the latest version**.
+4. Enter your name and organization name, then click **Start**. A **My Computer** entry appears in the server list.
 
 The app downloads the package from the latest release here and verifies its signature. You don't need to download these files yourself.
 
@@ -59,7 +61,7 @@ The app downloads the package from the latest release here and verifies its sign
 
 - Stored under `standalone/` in the app's data folder. On macOS: `~/Library/Application Support/kr.typostudio.issue-tracker/standalone/`.
 - The server listens on `127.0.0.1` only and can't be reached from other computers.
-- When removing the add-on you choose whether to keep the data. To back up, copy this folder while the app is closed.
+- On the Standalone page you can delete just the package (the data stays and comes back when you reinstall) or delete just the data to reset. To back up, copy this folder while the app is closed.
 
 ### When the internet is used
 
