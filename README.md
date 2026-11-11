@@ -4,11 +4,11 @@
 
 **Your issue tracker data is stored only on this computer.** Issues, documents and attachments stay on your machine and are not uploaded to any server. Apart from AI agents, everything works without an internet connection.
 
-An add-on for Issue Tracker Desktop, for using it on your own with no server, sign-up or login screen.
+An add-on for Simple Issue Tracker, for using it on your own with no server, sign-up or login screen.
 
 ## Install
 
-1. Install Issue Tracker Desktop.
+1. Install Simple Issue Tracker.
 2. On the server picker, click **Install Standalone**. The Standalone tab opens.
 3. Click **Get the latest version**.
 4. Enter your name and organization name, then click **Start**. A **My Computer** entry appears in the server list.
@@ -34,6 +34,8 @@ Beyond these, features you run or configure yourself, such as importing public h
 
 macOS (Apple Silicon) and Windows (x64; ARM runs it under emulation).
 
+Windows needs the [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist) (x64), including on Windows on ARM. If it is missing, the app installs it with Microsoft's official installer when you install or start Standalone. Windows asks for administrator permission once.
+
 ## Included software
 
 Node.js, PostgreSQL (embedded-postgres) and npm packages ship with this add-on under their own licenses: `node/LICENSE`, `server/node_modules/@embedded-postgres/*/LICENSE.md`, and each module's license file. The Pretendard, Outfit and JetBrains Mono fonts are under the SIL Open Font License 1.1, with the full text in `web/fonts/licenses/`. Issue Tracker itself is under `LICENSE` (PolyForm Internal Use 1.0.0).
@@ -44,11 +46,11 @@ Node.js, PostgreSQL (embedded-postgres) and npm packages ship with this add-on u
 
 **이슈트래커 데이터를 이 컴퓨터에만 저장합니다.** 이슈·문서·첨부파일은 내 컴퓨터 안에만 있고 외부 서버로 올라가지 않습니다. AI 에이전트를 빼면 인터넷에 연결되어 있지 않아도 모두 쓸 수 있습니다.
 
-이슈트래커 데스크톱의 추가기능입니다. 서버를 따로 두지 않고, 가입이나 로그인 화면 없이 혼자 씁니다.
+Simple Issue Tracker의 추가기능입니다. 서버를 따로 두지 않고, 가입이나 로그인 화면 없이 혼자 씁니다.
 
 ## 설치
 
-1. 이슈트래커 데스크톱을 설치합니다.
+1. Simple Issue Tracker를 설치합니다.
 2. 앱의 서버 선택 화면에서 **단독버전 설치**를 누르면 단독버전 탭이 열립니다.
 3. **최신 버전 받기**를 누릅니다.
 4. 이름과 조직 이름을 입력하고 **시작**을 누르면 서버 목록에 **내 컴퓨터** 항목이 생깁니다.
@@ -73,6 +75,8 @@ Node.js, PostgreSQL (embedded-postgres) and npm packages ship with this add-on u
 ## 지원 환경
 
 macOS (Apple Silicon), Windows (x64, ARM 은 에뮬레이션으로 실행).
+
+Windows 에서는 [Microsoft Visual C++ 재배포 가능 패키지](https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist)(x64)가 필요합니다. ARM Windows 에서도 x64 용을 설치합니다. 없으면 단독버전을 설치하거나 시작할 때 앱이 Microsoft 공식 설치 파일로 설치합니다. Windows 가 관리자 권한을 한 번 묻습니다.
 
 ## 포함된 소프트웨어
 
